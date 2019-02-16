@@ -26,7 +26,7 @@ submit_message = function() {
   $('#message_body').on('keydown', function(e) {
     if (e.keycode == 13) {
       $('button').click();
-	e.target.value = '';
+      e.target.value = '';
       };
    });
 };
